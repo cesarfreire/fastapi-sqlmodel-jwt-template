@@ -10,7 +10,7 @@ You need [Poetry](https://python-poetry.org/docs/ "Install Poetry") installed.
 ```bash
   git clone <this-repo-url>
   
-  cd cd fastapi-sqlmodel-jwt-template/
+  cd fastapi-sqlmodel-jwt-template/
 
   poetry install
 ```
