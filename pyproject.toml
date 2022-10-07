@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "fastapi-jwt-template"
+version = "0.1.0"
+description = ""
+authors = ["Cesar Freire <iceesar@live.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+fastapi = "^0.85.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+uvicorn = "^0.18.3"
+python-multipart = "^0.0.5"
+sqlmodel = "^0.0.8"
+dynaconf = "^3.1.11"
+pydantic = {extras = ["email"], version = "^1.10.2"}
+flake8 = "^5.0.4"
+black = "^22.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+name = "fastapi_template"
+
+[database]
+url = "sqlite:///fastapi_template.db"
